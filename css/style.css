@@ -11,6 +11,11 @@
     justify-content: center;
     
 }
+#eye-wrapper{
+    position: absolute;
+    left: 45vw;
+    
+}
 .eye-round {
     border-radius: 100%;
 }
@@ -31,12 +36,10 @@
 
 
 #eye-in {
-    border: 40px solid brown;
+    background-color: brown;
     height: 150px;
     width: 150px;
     position: absolute;
-    /*top:50px;*/
-    /*left:60px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,6 +62,8 @@
     transform: scale(0.7);
     transition: transform .5s ease-in-out;
 }
+
+
 #eyeshine {
     position: absolute;
     left: 50px;
