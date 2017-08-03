@@ -11,7 +11,7 @@
         var pageX = pageXOffset/10;
         // console.log(eyeposx);
         $(eye).css({
-            'top':event.pageY/2,
+            'top':event.pageY/10,
             'left': event.pageX/20
         });
     });
